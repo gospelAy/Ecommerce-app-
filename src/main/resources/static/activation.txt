@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            height: 50px;
+            width: 120px;
+            border-radius: 25px;
+            border: none;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        You're just one click away from activating your account! Please press the button below to complete your registration.
+        <br>
+        <a href="%s">
+            <button>
+                ACTIVATE
+            </button>
+        </a>
+    </p>
+</body>
+</html>
